@@ -178,7 +178,7 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 LegalCopyright = "Copyright © 2024 Purslane Ltd. All rights reserved."
 ProductName = "品汇万播远程控制"
 FileDescription = "品汇万播远程控制"
-OriginalFilename = "品汇万播远程控制.exe"
+OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
