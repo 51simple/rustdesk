@@ -1,10 +1,10 @@
 [package]
 name = "rustdesk"
 version = "1.3.2"
-authors = ["品汇万播远程控制"]
+authors = ["rustdesk"]
 edition = "2021"
 build= "build.rs"
-description = "品汇万播远程控制"
+description = "rustdesk"
 default-run = "rustdesk"
 rust-version = "1.75"
 
@@ -176,9 +176,9 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2024 Purslane Ltd. All rights reserved."
-ProductName = "品汇万播远程控制"
-FileDescription = "品汇万播远程控制"
-OriginalFilename = "品汇万播远程控制.exe"
+ProductName = "rustdesk"
+FileDescription = "rustdesk"
+OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
