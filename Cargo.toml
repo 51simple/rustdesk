@@ -5,7 +5,7 @@ authors = ["品汇万播远程控制"]
 edition = "2021"
 build= "build.rs"
 description = "品汇万播远程控制"
-default-run = "品汇万播远程控制"
+default-run = "rustdesk"
 rust-version = "1.75"
 
 [lib]
