@@ -1428,6 +1428,7 @@ class InputModel {
 
   void onMobileBack() => tap(MouseButtons.right);
   void onMobileHome() => tap(MouseButtons.wheel);
+  void onMobileHide() => tap(MouseButtons.right);
   Future<void> onMobileApps() async {
     sendMouse('down', MouseButtons.wheel);
     await Future.delayed(const Duration(milliseconds: 500));
